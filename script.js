@@ -17,6 +17,7 @@ else {
     console.log(`My name is ${name} and I am a student at Grand Circus in Grand Rapids, Michigan. I am currently ${age} years old and my birthday is on ${birthday}.`);
 }
 
+// Iterate through lifeEvents array
 for (i = 0; i < lifeEvents.length; i++) {
     console.log(lifeEvents[i]);
 }
@@ -27,7 +28,7 @@ for (i = 0; i < lifeEvents.length; i++) {
 let counter = 0;
 
 while (true) {
-    let randomNumber = Math.floor(Math.random() * 11);
+    let randomNumber = Math.floor(Math.random() * 11); // Generates number from 0 - 10
 
     if (randomNumber !== 5) {
         counter++;
